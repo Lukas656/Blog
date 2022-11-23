@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+header {
+    background-color: var(--purple-bg);
+    color: var(--light-purple);
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid var(--green);
+}
+
+nav {
+    background-color: var(--dark-bg);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    width: 350px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: var(--light-purple);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--green);
+}
+
+.pesq {
+    height: auto;
+    display: flex;
+}
+
+#text {
+    padding: 5px;
+    background-color: var(--dark-bg);
+    color: var(--white);
+}
+
+.button--submit {
+    background-color: var(--button-bg);
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.conteudo1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+article h1 {
+    width: 500px;
+    color: var(--button-bg);
+    margin-left: 55px;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+article h2 {
+    width: 500px;
+    margin-left: 55px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.link1 {
+    margin-top: 25px;
+}
+
+.link1 a {
+    color: var(--button-bg);
+    margin: 55px;
+}
+
+.link1 a:hover {
+    border-bottom: 1px solid var(--green);
+}
+
+.conteudo1 .banner {
+    padding: 25px;
+}
+
+#conteiner {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 25px;
+    margin-bottom: 120px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.cont1,
+.cont2 {
+    padding-left: 50px;
+}
+
+.cont1 {
+    margin-left: 55px;
+}
+
+.cont1 img {
+    width: 469px;
+    height: 302px;
+    margin-bottom: 15px;
+}
+
+.cont1 p {
+    width: 469px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#cards{
+    display: flex;
+    text-align: center;
+    margin-bottom: 120px;
+    padding: 45px;
+    gap: 5px;
+}
+
+
+footer {
+    background-color: var(--purple-bg);
+    color: var(--light-purple);
+    text-align: center;
+    height: 50px;
+}
+
+footer h2 {
+    padding: 10px;
+}
